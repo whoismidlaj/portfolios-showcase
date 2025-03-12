@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     devServer: {
       port: 3002,
       host: '0.0.0.0' // Ensures it binds to all interfaces
-    }
+    },
     server: {
       responseTimeout: 60000 // 60 seconds
     }
